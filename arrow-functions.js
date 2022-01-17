@@ -7,7 +7,7 @@
 //function addTwoNumbers(a,b) {
     // Code block
     //return a + b;
-}
+//}
 //let sum = addTwoNumbers(3,5);
 //console.log(sum);
 
@@ -16,11 +16,11 @@
     // Code block
    return a + b;
    }
-  let numbers = addtwonumbers(3,5);
+  let sum = addtwonumbers(3,5);
   console.log(sum);
 
 // Single Line Arrow Function With Parameters
-const addTwoNumbers2 = (a,b) => (a + b);
+//const addTwoNumbers2 = (a,b) => (a + b);
 
 // Implicit Returns
 
