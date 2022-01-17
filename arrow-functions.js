@@ -20,8 +20,16 @@
   console.log(sum);
 
 // Single Line Arrow Function With Parameters
-//const addTwoNumbers2 = (a,b) => (a + b);
+  const addTwoNumbers2 = (a, b) => a + b;
+  let sum2 = addTwoNumbers2(6,4);
+  console.log(sum2);
 
 // Implicit Returns
+const saySomething = message => console.log(message);
+saySomething('Hello there!!');
+
+const sayHello = () => console.log('hello');
+sayHello();
+
 
 // Returning Multiple Lines
